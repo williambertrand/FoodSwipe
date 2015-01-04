@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DC33BB11A590C390063F110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC33BB01A590C390063F110 /* main.m */; };
+		3DC33BB41A590C390063F110 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC33BB31A590C390063F110 /* AppDelegate.m */; };
+		3DC33BB71A590C390063F110 /* FoodSwipe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DC33BB51A590C390063F110 /* FoodSwipe.xcdatamodeld */; };
+		3DC33BBA1A590C390063F110 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC33BB91A590C390063F110 /* ViewController.m */; };
+		3DC33BBD1A590C390063F110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC33BBB1A590C390063F110 /* Main.storyboard */; };
+		3DC33BBF1A590C390063F110 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC33BBE1A590C390063F110 /* Images.xcassets */; };
+		3DC33BC21A590C390063F110 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DC33BC01A590C390063F110 /* LaunchScreen.xib */; };
+		3DC33BCE1A590C390063F110 /* FoodSwipeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC33BCD1A590C390063F110 /* FoodSwipeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DC33BC81A590C390063F110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DC33BA31A590C390063F110 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC33BAA1A590C390063F110;
+			remoteInfo = FoodSwipe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DC33BAB1A590C390063F110 /* FoodSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodSwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC33BAF1A590C390063F110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC33BB01A590C390063F110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DC33BB21A590C390063F110 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DC33BB31A590C390063F110 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DC33BB61A590C390063F110 /* FoodSwipe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodSwipe.xcdatamodel; sourceTree = "<group>"; };
+		3DC33BB81A590C390063F110 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3DC33BB91A590C390063F110 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3DC33BBC1A590C390063F110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DC33BBE1A590C390063F110 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DC33BC11A590C390063F110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3DC33BC71A590C390063F110 /* FoodSwipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodSwipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC33BCC1A590C390063F110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC33BCD1A590C390063F110 /* FoodSwipeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodSwipeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DC33BA81A590C390063F110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC33BC41A590C390063F110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DC33BA21A590C390063F110 = {
+			isa = PBXGroup;
+			children = (
+				3DC33BAD1A590C390063F110 /* FoodSwipe */,
+				3DC33BCA1A590C390063F110 /* FoodSwipeTests */,
+				3DC33BAC1A590C390063F110 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DC33BAC1A590C390063F110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DC33BAB1A590C390063F110 /* FoodSwipe.app */,
+				3DC33BC71A590C390063F110 /* FoodSwipeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DC33BAD1A590C390063F110 /* FoodSwipe */ = {
+			isa = PBXGroup;
+			children = (
+				3DC33BB21A590C390063F110 /* AppDelegate.h */,
+				3DC33BB31A590C390063F110 /* AppDelegate.m */,
+				3DC33BB81A590C390063F110 /* ViewController.h */,
+				3DC33BB91A590C390063F110 /* ViewController.m */,
+				3DC33BBB1A590C390063F110 /* Main.storyboard */,
+				3DC33BBE1A590C390063F110 /* Images.xcassets */,
+				3DC33BC01A590C390063F110 /* LaunchScreen.xib */,
+				3DC33BB51A590C390063F110 /* FoodSwipe.xcdatamodeld */,
+				3DC33BAE1A590C390063F110 /* Supporting Files */,
+			);
+			path = FoodSwipe;
+			sourceTree = "<group>";
+		};
+		3DC33BAE1A590C390063F110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DC33BAF1A590C390063F110 /* Info.plist */,
+				3DC33BB01A590C390063F110 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DC33BCA1A590C390063F110 /* FoodSwipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DC33BCD1A590C390063F110 /* FoodSwipeTests.m */,
+				3DC33BCB1A590C390063F110 /* Supporting Files */,
+			);
+			path = FoodSwipeTests;
+			sourceTree = "<group>";
+		};
+		3DC33BCB1A590C390063F110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DC33BCC1A590C390063F110 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DC33BAA1A590C390063F110 /* FoodSwipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC33BD11A590C390063F110 /* Build configuration list for PBXNativeTarget "FoodSwipe" */;
+			buildPhases = (
+				3DC33BA71A590C390063F110 /* Sources */,
+				3DC33BA81A590C390063F110 /* Frameworks */,
+				3DC33BA91A590C390063F110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodSwipe;
+			productName = FoodSwipe;
+			productReference = 3DC33BAB1A590C390063F110 /* FoodSwipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DC33BC61A590C390063F110 /* FoodSwipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC33BD41A590C390063F110 /* Build configuration list for PBXNativeTarget "FoodSwipeTests" */;
+			buildPhases = (
+				3DC33BC31A590C390063F110 /* Sources */,
+				3DC33BC41A590C390063F110 /* Frameworks */,
+				3DC33BC51A590C390063F110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC33BC91A590C390063F110 /* PBXTargetDependency */,
+			);
+			name = FoodSwipeTests;
+			productName = FoodSwipeTests;
+			productReference = 3DC33BC71A590C390063F110 /* FoodSwipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DC33BA31A590C390063F110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "William Bertrand";
+				TargetAttributes = {
+					3DC33BAA1A590C390063F110 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					3DC33BC61A590C390063F110 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 3DC33BAA1A590C390063F110;
+					};
+				};
+			};
+			buildConfigurationList = 3DC33BA61A590C390063F110 /* Build configuration list for PBXProject "FoodSwipe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DC33BA21A590C390063F110;
+			productRefGroup = 3DC33BAC1A590C390063F110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DC33BAA1A590C390063F110 /* FoodSwipe */,
+				3DC33BC61A590C390063F110 /* FoodSwipeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DC33BA91A590C390063F110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC33BBD1A590C390063F110 /* Main.storyboard in Resources */,
+				3DC33BC21A590C390063F110 /* LaunchScreen.xib in Resources */,
+				3DC33BBF1A590C390063F110 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC33BC51A590C390063F110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DC33BA71A590C390063F110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC33BB71A590C390063F110 /* FoodSwipe.xcdatamodeld in Sources */,
+				3DC33BB41A590C390063F110 /* AppDelegate.m in Sources */,
+				3DC33BBA1A590C390063F110 /* ViewController.m in Sources */,
+				3DC33BB11A590C390063F110 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC33BC31A590C390063F110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC33BCE1A590C390063F110 /* FoodSwipeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DC33BC91A590C390063F110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC33BAA1A590C390063F110 /* FoodSwipe */;
+			targetProxy = 3DC33BC81A590C390063F110 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DC33BBB1A590C390063F110 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DC33BBC1A590C390063F110 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DC33BC01A590C390063F110 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DC33BC11A590C390063F110 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DC33BCF1A590C390063F110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DC33BD01A590C390063F110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DC33BD21A590C390063F110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoodSwipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DC33BD31A590C390063F110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoodSwipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DC33BD51A590C390063F110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FoodSwipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodSwipe.app/FoodSwipe";
+			};
+			name = Debug;
+		};
+		3DC33BD61A590C390063F110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FoodSwipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodSwipe.app/FoodSwipe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DC33BA61A590C390063F110 /* Build configuration list for PBXProject "FoodSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC33BCF1A590C390063F110 /* Debug */,
+				3DC33BD01A590C390063F110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC33BD11A590C390063F110 /* Build configuration list for PBXNativeTarget "FoodSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC33BD21A590C390063F110 /* Debug */,
+				3DC33BD31A590C390063F110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DC33BD41A590C390063F110 /* Build configuration list for PBXNativeTarget "FoodSwipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC33BD51A590C390063F110 /* Debug */,
+				3DC33BD61A590C390063F110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3DC33BB51A590C390063F110 /* FoodSwipe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3DC33BB61A590C390063F110 /* FoodSwipe.xcdatamodel */,
+			);
+			currentVersion = 3DC33BB61A590C390063F110 /* FoodSwipe.xcdatamodel */;
+			path = FoodSwipe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3DC33BA31A590C390063F110 /* Project object */;
+}
