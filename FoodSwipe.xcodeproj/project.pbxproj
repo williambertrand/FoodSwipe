@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DAACDB71A721BC20025EEE6 /* CardOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAACDB61A721BC20025EEE6 /* CardOverlayView.m */; };
+		3DAACDBA1A736DAF0025EEE6 /* frown.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAACDB81A736DAF0025EEE6 /* frown.png */; };
+		3DAACDBB1A736DAF0025EEE6 /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAACDB91A736DAF0025EEE6 /* smile.png */; };
+		3DAACDBF1A76F8710025EEE6 /* AddDishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAACDBE1A76F8710025EEE6 /* AddDishViewController.m */; };
 		3DC33BB11A590C390063F110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC33BB01A590C390063F110 /* main.m */; };
 		3DC33BB41A590C390063F110 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC33BB31A590C390063F110 /* AppDelegate.m */; };
 		3DC33BB71A590C390063F110 /* FoodSwipe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DC33BB51A590C390063F110 /* FoodSwipe.xcdatamodeld */; };
@@ -15,6 +19,22 @@
 		3DC33BBF1A590C390063F110 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC33BBE1A590C390063F110 /* Images.xcassets */; };
 		3DC33BC21A590C390063F110 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DC33BC01A590C390063F110 /* LaunchScreen.xib */; };
 		3DC33BCE1A590C390063F110 /* FoodSwipeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC33BCD1A590C390063F110 /* FoodSwipeTests.m */; };
+		3DC33BD81A59BB460063F110 /* googlemap.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DC33BD71A59BB460063F110 /* googlemap.png */; };
+		3DC33BE51A5A258A0063F110 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC33BDA1A5A258A0063F110 /* AudioToolbox.framework */; };
+		3DC33BE61A5A258A0063F110 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC33BDB1A5A258A0063F110 /* CFNetwork.framework */; };
+		3DC33BE71A5A258A0063F110 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC33BDC1A5A258A0063F110 /* CoreGraphics.framework */; };
+		3DC33BE81A5A258A0063F110 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC33BDD1A5A258A0063F110 /* CoreLocation.framework */; };
+		3DC33BE91A5A258A0063F110 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC33BDE1A5A258A0063F110 /* libsqlite3.dylib */; };
+		3DC33BEA1A5A258A0063F110 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC33BDF1A5A258A0063F110 /* libz.dylib */; };
+		3DC33BEB1A5A258A0063F110 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC33BE01A5A258A0063F110 /* MobileCoreServices.framework */; };
+		3DC33BEC1A5A258A0063F110 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC33BE11A5A258A0063F110 /* QuartzCore.framework */; };
+		3DC33BED1A5A258A0063F110 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC33BE21A5A258A0063F110 /* Security.framework */; };
+		3DC33BEE1A5A258A0063F110 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC33BE31A5A258A0063F110 /* StoreKit.framework */; };
+		3DC33BEF1A5A258A0063F110 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC33BE41A5A258A0063F110 /* SystemConfiguration.framework */; };
+		3DC33BF21A5A25C10063F110 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC33BF01A5A25C10063F110 /* Bolts.framework */; };
+		3DC33BF31A5A25C10063F110 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC33BF11A5A25C10063F110 /* Parse.framework */; };
+		3DC33BF61A5A2CAC0063F110 /* SwipeBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC33BF51A5A2CAC0063F110 /* SwipeBackgroundViewController.m */; };
+		3DC33BF91A5A327E0063F110 /* SwipeCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC33BF81A5A327E0063F110 /* SwipeCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DAACDB51A721BC20025EEE6 /* CardOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardOverlayView.h; sourceTree = "<group>"; };
+		3DAACDB61A721BC20025EEE6 /* CardOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardOverlayView.m; sourceTree = "<group>"; };
+		3DAACDB81A736DAF0025EEE6 /* frown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frown.png; sourceTree = "<group>"; };
+		3DAACDB91A736DAF0025EEE6 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
+		3DAACDBD1A76F8710025EEE6 /* AddDishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDishViewController.h; sourceTree = "<group>"; };
+		3DAACDBE1A76F8710025EEE6 /* AddDishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDishViewController.m; sourceTree = "<group>"; };
 		3DC33BAB1A590C390063F110 /* FoodSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodSwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC33BAF1A590C390063F110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DC33BB01A590C390063F110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +68,24 @@
 		3DC33BC71A590C390063F110 /* FoodSwipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodSwipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC33BCC1A590C390063F110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DC33BCD1A590C390063F110 /* FoodSwipeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodSwipeTests.m; sourceTree = "<group>"; };
+		3DC33BD71A59BB460063F110 /* googlemap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googlemap.png; sourceTree = "<group>"; };
+		3DC33BDA1A5A258A0063F110 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3DC33BDB1A5A258A0063F110 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3DC33BDC1A5A258A0063F110 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3DC33BDD1A5A258A0063F110 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3DC33BDE1A5A258A0063F110 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		3DC33BDF1A5A258A0063F110 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3DC33BE01A5A258A0063F110 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3DC33BE11A5A258A0063F110 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3DC33BE21A5A258A0063F110 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3DC33BE31A5A258A0063F110 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3DC33BE41A5A258A0063F110 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3DC33BF01A5A25C10063F110 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		3DC33BF11A5A25C10063F110 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		3DC33BF41A5A2CAC0063F110 /* SwipeBackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeBackgroundViewController.h; sourceTree = "<group>"; };
+		3DC33BF51A5A2CAC0063F110 /* SwipeBackgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeBackgroundViewController.m; sourceTree = "<group>"; };
+		3DC33BF71A5A327E0063F110 /* SwipeCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeCardView.h; sourceTree = "<group>"; };
+		3DC33BF81A5A327E0063F110 /* SwipeCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +93,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC33BE51A5A258A0063F110 /* AudioToolbox.framework in Frameworks */,
+				3DC33BE61A5A258A0063F110 /* CFNetwork.framework in Frameworks */,
+				3DC33BE71A5A258A0063F110 /* CoreGraphics.framework in Frameworks */,
+				3DC33BF21A5A25C10063F110 /* Bolts.framework in Frameworks */,
+				3DC33BE81A5A258A0063F110 /* CoreLocation.framework in Frameworks */,
+				3DC33BE91A5A258A0063F110 /* libsqlite3.dylib in Frameworks */,
+				3DC33BF31A5A25C10063F110 /* Parse.framework in Frameworks */,
+				3DC33BEA1A5A258A0063F110 /* libz.dylib in Frameworks */,
+				3DC33BEB1A5A258A0063F110 /* MobileCoreServices.framework in Frameworks */,
+				3DC33BEC1A5A258A0063F110 /* QuartzCore.framework in Frameworks */,
+				3DC33BED1A5A258A0063F110 /* Security.framework in Frameworks */,
+				3DC33BEE1A5A258A0063F110 /* StoreKit.framework in Frameworks */,
+				3DC33BEF1A5A258A0063F110 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,9 +119,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DAACDBC1A75A73B0025EEE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DC33BDA1A5A258A0063F110 /* AudioToolbox.framework */,
+				3DC33BDB1A5A258A0063F110 /* CFNetwork.framework */,
+				3DC33BDC1A5A258A0063F110 /* CoreGraphics.framework */,
+				3DC33BDD1A5A258A0063F110 /* CoreLocation.framework */,
+				3DC33BDE1A5A258A0063F110 /* libsqlite3.dylib */,
+				3DC33BDF1A5A258A0063F110 /* libz.dylib */,
+				3DC33BE01A5A258A0063F110 /* MobileCoreServices.framework */,
+				3DC33BE11A5A258A0063F110 /* QuartzCore.framework */,
+				3DC33BE21A5A258A0063F110 /* Security.framework */,
+				3DC33BE31A5A258A0063F110 /* StoreKit.framework */,
+				3DC33BE41A5A258A0063F110 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3DC33BA21A590C390063F110 = {
 			isa = PBXGroup;
 			children = (
+				3DAACDBC1A75A73B0025EEE6 /* Frameworks */,
 				3DC33BAD1A590C390063F110 /* FoodSwipe */,
 				3DC33BCA1A590C390063F110 /* FoodSwipeTests */,
 				3DC33BAC1A590C390063F110 /* Products */,
@@ -87,8 +163,17 @@
 				3DC33BB31A590C390063F110 /* AppDelegate.m */,
 				3DC33BB81A590C390063F110 /* ViewController.h */,
 				3DC33BB91A590C390063F110 /* ViewController.m */,
+				3DC33BF41A5A2CAC0063F110 /* SwipeBackgroundViewController.h */,
+				3DC33BF71A5A327E0063F110 /* SwipeCardView.h */,
+				3DC33BF81A5A327E0063F110 /* SwipeCardView.m */,
+				3DAACDB51A721BC20025EEE6 /* CardOverlayView.h */,
+				3DAACDBD1A76F8710025EEE6 /* AddDishViewController.h */,
+				3DAACDBE1A76F8710025EEE6 /* AddDishViewController.m */,
+				3DAACDB61A721BC20025EEE6 /* CardOverlayView.m */,
+				3DC33BF51A5A2CAC0063F110 /* SwipeBackgroundViewController.m */,
 				3DC33BBB1A590C390063F110 /* Main.storyboard */,
 				3DC33BBE1A590C390063F110 /* Images.xcassets */,
+				3DC33BD91A59BB6C0063F110 /* Images */,
 				3DC33BC01A590C390063F110 /* LaunchScreen.xib */,
 				3DC33BB51A590C390063F110 /* FoodSwipe.xcdatamodeld */,
 				3DC33BAE1A590C390063F110 /* Supporting Files */,
@@ -99,6 +184,8 @@
 		3DC33BAE1A590C390063F110 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3DC33BF01A5A25C10063F110 /* Bolts.framework */,
+				3DC33BF11A5A25C10063F110 /* Parse.framework */,
 				3DC33BAF1A590C390063F110 /* Info.plist */,
 				3DC33BB01A590C390063F110 /* main.m */,
 			);
@@ -120,6 +207,16 @@
 				3DC33BCC1A590C390063F110 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DC33BD91A59BB6C0063F110 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3DAACDB81A736DAF0025EEE6 /* frown.png */,
+				3DAACDB91A736DAF0025EEE6 /* smile.png */,
+				3DC33BD71A59BB460063F110 /* googlemap.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +299,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DAACDBA1A736DAF0025EEE6 /* frown.png in Resources */,
 				3DC33BBD1A590C390063F110 /* Main.storyboard in Resources */,
 				3DC33BC21A590C390063F110 /* LaunchScreen.xib in Resources */,
 				3DC33BBF1A590C390063F110 /* Images.xcassets in Resources */,
+				3DAACDBB1A736DAF0025EEE6 /* smile.png in Resources */,
+				3DC33BD81A59BB460063F110 /* googlemap.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,8 +323,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DC33BB71A590C390063F110 /* FoodSwipe.xcdatamodeld in Sources */,
+				3DAACDB71A721BC20025EEE6 /* CardOverlayView.m in Sources */,
+				3DAACDBF1A76F8710025EEE6 /* AddDishViewController.m in Sources */,
+				3DC33BF91A5A327E0063F110 /* SwipeCardView.m in Sources */,
 				3DC33BB41A590C390063F110 /* AppDelegate.m in Sources */,
 				3DC33BBA1A590C390063F110 /* ViewController.m in Sources */,
+				3DC33BF61A5A2CAC0063F110 /* SwipeBackgroundViewController.m in Sources */,
 				3DC33BB11A590C390063F110 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +453,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FoodSwipe",
+				);
 				INFOPLIST_FILE = FoodSwipe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +467,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FoodSwipe",
+				);
 				INFOPLIST_FILE = FoodSwipe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +530,7 @@
 				3DC33BD31A590C390063F110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DC33BD41A590C390063F110 /* Build configuration list for PBXNativeTarget "FoodSwipeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +539,7 @@
 				3DC33BD61A590C390063F110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

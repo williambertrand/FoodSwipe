@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    //get the user, see if login page should be displayed
+    
 }
 
 - (void)didReceiveMemoryWarning {
